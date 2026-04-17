@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#F59E0B" />
+    <title>Gorengan Bu Fitriyani — Latek, Bangil, Pasuruan</title>
+    <meta
+      name="description"
+      content="Gorengan Bu Fitriyani di Latek, Bangil, Pasuruan. Gorengan hangat, renyah, higienis, dibuat fresh setiap hari. Pesan via WhatsApp."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <a class="skip-link" href="#menu">Lewati ke Menu</a>
+
+    <header class="topbar">
+      <div class="container topbar__inner">
+        <div class="brand">
+          <div class="brand__badge" aria-hidden="true">🔥</div>
+          <div class="brand__text">
+            <div class="brand__name">Gorengan Bu Fitriyani</div>
+            <div class="brand__meta">Latek, Bangil, Pasuruan</div>
+          </div>
+        </div>
+
+        <div class="topbar__actions">
+          <a class="ghost-link" href="#gallery">Galeri</a>
+          <a class="ghost-link" href="#about">Tentang</a>
+          <button class="btn btn--primary" id="ctaTopbar" type="button">
+            Pesan Sekarang
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="container hero__grid">
+          <div class="hero__copy reveal">
+            <div class="pill">
+              <span class="pill__dot" aria-hidden="true"></span>
+              Fresh setiap hari • Hangat • Renyah
+            </div>
+            <h1 class="hero__title">Gorengan Hangat, Renyah, dan Murah!</h1>
+            <p class="hero__subtitle">
+              Cemilan favorit keluarga di Latek, Bangil, dibuat fresh setiap
+              hari.
+            </p>
+
+            <div class="hero__cta">
+              <button class="btn btn--primary btn--lg" id="ctaHero" type="button">
+                Pesan Sekarang
+              </button>
+              <div class="cart-indicator" aria-live="polite">
+                <span class="cart-indicator__label">Total dipilih</span>
+                <span class="cart-indicator__value" id="cartCount">0 item</span>
+              </div>
+            </div>
+
+            <div class="hero__trust">
+              <div class="trust">
+                <div class="trust__k">Higienis</div>
+                <div class="trust__v">Dari dapur rumahan</div>
+              </div>
+              <div class="trust">
+                <div class="trust__k">Ramah kantong</div>
+                <div class="trust__v">Mulai Rp 2.000</div>
+              </div>
+              <div class="trust">
+                <div class="trust__k">Bisa campur</div>
+                <div class="trust__v">Pilih lebih dari satu</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero__visual reveal">
+            <div class="hero-card">
+              <div class="hero-card__glow" aria-hidden="true"></div>
+              <img
+                class="hero-food floaty"
+                src="./assets/hero-gorengan.svg"
+                alt="Ilustrasi gorengan hangat"
+                loading="eager"
+              />
+              <div class="hero-card__note">
+                <div class="hero-card__noteTitle">Warm street-food vibe</div>
+                <div class="hero-card__noteText">
+                  Warna kuning-oranye-cokelat, bersih tapi tetap tradisional.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section menu" id="menu">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2 class="section__title">Menu Gorengan</h2>
+            <p class="section__subtitle">
+              Gurih, renyah, dan fresh dari dapur.
+              <span class="muted">Klik produk untuk detail (opsional).</span>
+            </p>
+          </div>
+
+          <div class="menu__grid" id="productGrid" aria-live="polite"></div>
+
+          <div class="future reveal" id="futureMenu">
+            <div class="future__head">
+              <h3 class="future__title">Menu Lainnya (Segera Hadir)</h3>
+              <p class="future__subtitle">
+                Template katalog kosong untuk menu baru.
+              </p>
+            </div>
+            <div class="menu__grid" id="futureGrid"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="container about__grid">
+          <div class="about__card reveal">
+            <h2 class="section__title">Tentang Kami</h2>
+            <p class="about__text">
+              Gorengan Bu Fitriyani adalah usaha rumahan di Bangil, Pasuruan yang
+              menyajikan gorengan hangat, higienis, dan dibuat fresh setiap
+              hari.
+            </p>
+            <div class="about__meta">
+              <div class="meta-chip">
+                <span class="meta-chip__k">Lokasi</span>
+                <span class="meta-chip__v">Latek, Bangil</span>
+              </div>
+              <div class="meta-chip">
+                <span class="meta-chip__k">WhatsApp</span>
+                <a class="meta-chip__v link" id="waLink" href="#" rel="noreferrer">
+                  +62 877-1087-3166
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="why reveal" id="why">
+            <h2 class="section__title">Kenapa Pilih Kami</h2>
+            <ul class="why__list">
+              <li class="why__item">
+                <span class="why__icon" aria-hidden="true">✅</span>
+                <span>Fresh setiap hari</span>
+              </li>
+              <li class="why__item">
+                <span class="why__icon" aria-hidden="true">💛</span>
+                <span>Harga terjangkau</span>
+              </li>
+              <li class="why__item">
+                <span class="why__icon" aria-hidden="true">⭐</span>
+                <span>Rasa konsisten dan enak</span>
+              </li>
+              <li class="why__item">
+                <span class="why__icon" aria-hidden="true">🏠</span>
+                <span>Sudah dipercaya warga sekitar</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section gallery" id="gallery">
+        <div class="container">
+          <div class="section__head reveal">
+            <h2 class="section__title">Galeri</h2>
+            <p class="section__subtitle">
+              Tampilan hangat dengan pencahayaan “street food”.
+            </p>
+          </div>
+
+          <div class="gallery__grid reveal">
+            <img
+              class="gallery__img floaty"
+              src="./assets/gallery-1.svg"
+              alt="Gorengan hangat di tampah"
+              loading="lazy"
+            />
+            <img
+              class="gallery__img floaty"
+              src="./assets/gallery-2.svg"
+              alt="Tahu isi renyah"
+              loading="lazy"
+            />
+            <img
+              class="gallery__img floaty"
+              src="./assets/gallery-3.svg"
+              alt="Tempe goreng keemasan"
+              loading="lazy"
+            />
+            <img
+              class="gallery__img floaty"
+              src="./assets/gallery-4.svg"
+              alt="Gorengan siap saji"
+              loading="lazy"
+            />
+            <img
+              class="gallery__img floaty"
+              src="./assets/gallery-5.svg"
+              alt="Aneka gorengan"
+              loading="lazy"
+            />
+            <img
+              class="gallery__img floaty"
+              src="./assets/gallery-6.svg"
+              alt="Gorengan hangat dan saus cabai"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <div class="footer__name">Gorengan Bu Fitriyani</div>
+          <div class="footer__meta">Kaliteluh, Latek, Bangil</div>
+        </div>
+        <div class="footer__right">
+          <div class="footer__wa">
+            WhatsApp:
+            <a class="link" href="#" id="waFooterLink">+62 877-1087-3166</a>
+          </div>
+          <div class="footer__thanks">
+            Terima kasih sudah mendukung usaha rumahan kami.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button class="sticky-order" id="stickyOrder" type="button" aria-label="Pesan sekarang">
+      <span class="sticky-order__text">Pesan Sekarang</span>
+      <span class="sticky-order__count" id="stickyCount">0</span>
+    </button>
+
+    <div class="modal" id="orderModal" aria-hidden="true">
+      <div class="modal__backdrop" data-close="true"></div>
+      <div class="modal__panel" role="dialog" aria-modal="true" aria-labelledby="orderTitle">
+        <div class="modal__head">
+          <div>
+            <div class="modal__kicker">Order via WhatsApp</div>
+            <h3 class="modal__title" id="orderTitle">Form Pesanan</h3>
+          </div>
+          <button class="icon-btn" type="button" data-close="true" aria-label="Tutup">
+            ✕
+          </button>
+        </div>
+
+        <form id="orderForm" class="form">
+          <div class="form__grid">
+            <label class="field">
+              <span class="field__label">Nama Pembeli</span>
+              <input class="field__input" name="nama" required placeholder="Contoh: Rina" />
+            </label>
+
+            <label class="field">
+              <span class="field__label">Nomor WhatsApp</span>
+              <input
+                class="field__input"
+                name="waPembeli"
+                inputmode="tel"
+                required
+                placeholder="Contoh: 62812xxxxxxx"
+              />
+            </label>
+          </div>
+
+          <label class="field">
+            <span class="field__label">Alamat</span>
+            <textarea
+              class="field__input field__textarea"
+              name="alamat"
+              required
+              placeholder="Tulis alamat lengkap (jalan, RT/RW, patokan)"
+            ></textarea>
+          </label>
+
+          <div class="form__note">
+            <strong>Silakan pilih lebih dari satu menu</strong> sesuai keinginan
+            (bisa pesan campur).
+          </div>
+
+          <div class="menu-picker" id="menuPicker"></div>
+
+          <label class="field">
+            <span class="field__label">Catatan tambahan (optional)</span>
+            <textarea
+              class="field__input field__textarea"
+              name="catatan"
+              placeholder="Contoh: pedas, tanpa cabai, ambil jam 4"
+            ></textarea>
+          </label>
+
+          <div class="form__actions">
+            <button class="btn btn--soft" type="button" data-close="true">
+              Nanti dulu
+            </button>
+            <button class="btn btn--primary" type="submit">
+              Kirim ke WhatsApp
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <div class="modal" id="detailModal" aria-hidden="true">
+      <div class="modal__backdrop" data-close="true"></div>
+      <div class="modal__panel modal__panel--detail" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+        <div class="modal__head">
+          <h3 class="modal__title" id="detailTitle">Detail Produk</h3>
+          <button class="icon-btn" type="button" data-close="true" aria-label="Tutup">✕</button>
+        </div>
+        <div class="detail" id="detailContent"></div>
+      </div>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
