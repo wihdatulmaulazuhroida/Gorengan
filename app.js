@@ -1,5 +1,5 @@
 const BUSINESS = {
-  name: "Gorengan Bu Fitriyani",
+  name: "Golden Bites",
   location: "Latek, Bangil, Pasuruan",
   waNumber: "6287710873166",
   waDisplay: "+62 877-1087-3166",

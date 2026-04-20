@@ -1,4 +1,4 @@
-# Gorengan Bu Fitriyani — Landing Page
+# Golden Bites — Landing Page
 
 Landing page modern (HTML/CSS/JS) untuk usaha gorengan rumahan.
 
