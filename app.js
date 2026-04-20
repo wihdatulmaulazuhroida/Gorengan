@@ -12,7 +12,7 @@ const PRODUCTS = [
     price: 2000,
     priceLabel: "Rp 2000",
     description: "Gurih, renyah, dan fresh dari dapur.",
-    image: "./assets/tahu-isi.svg",
+    image: "./assets/tahu-isi.png",
   },
   {
     id: "tempe-goreng",
@@ -20,7 +20,15 @@ const PRODUCTS = [
     price: 2000,
     priceLabel: "Rp 2000",
     description: "Gurih, renyah, dan fresh dari dapur.",
-    image: "./assets/tempe-goreng.svg",
+    image: "./assets/tempe-goreng.png",
+  },
+  {
+    id: "risol-sayur",
+    name: "Risol Sayur",
+    price: 2000,
+    priceLabel: "Rp 2000",
+    description: "Risol isi sayur, gurih dan renyah.",
+    image: "./assets/risol-sayur.png",
   },
 ];
 
