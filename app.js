@@ -83,8 +83,6 @@ function buildOrderMessage(formData, picked) {
   lines.push("Halo, saya mau pesan gorengan berikut:");
   lines.push("");
   lines.push(`Nama: ${formData.nama}`);
-  lines.push(`WA: ${formData.waPembeli}`);
-  lines.push(`Alamat: ${formData.alamat}`);
   lines.push("");
   lines.push("Pesanan:");
 
@@ -376,8 +374,6 @@ function setupEvents() {
     const data = new FormData(form);
     const formData = {
       nama: String(data.get("nama") || "").trim(),
-      waPembeli: String(data.get("waPembeli") || "").trim(),
-      alamat: String(data.get("alamat") || "").trim(),
       catatan: String(data.get("catatan") || "").trim(),
     };
 
